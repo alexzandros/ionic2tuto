@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>CRRC rules a**holes</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-list>
+        <div ion-item *ngFor="let pendejo of listado">
+            <p>
+                {{pendejo.nombre + " " + pendejo.apellido}}
+            </p>
+        </div>
+    </ion-list>
+</ion-content>

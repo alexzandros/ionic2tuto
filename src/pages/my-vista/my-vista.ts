@@ -16,6 +16,7 @@ export class MyVistaPage{
         this.listado.push({nombre:'marika',apellido:'ramero'});
         this.listado.push({nombre:'estreptococo',apellido:'mañanero'});
         this.listado.push({nombre:'ara',apellido:'cara'});
+        this.listado.push({nombre:'rene',apellido:'la rana'});
     }
 }
 
